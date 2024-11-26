@@ -144,3 +144,15 @@ C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\ebay.staticwebas
 C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\obj\Debug\net8.0\staticwebassets\msbuild.ebay.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\Scrutor.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\obj\Debug\net8.0\ebay.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\itext.commons.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\jsreport.AspNetCore.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\jsreport.Binary.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\jsreport.Client.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\jsreport.Local.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\jsreport.Shared.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\jsreport.Types.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ASUS ROG STRIX\source\repos\ebay\ebay\bin\Debug\net8.0\itextsharp.dll

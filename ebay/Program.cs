@@ -1,7 +1,11 @@
 using ebay.Models;
 using ebay.services;
+using jsreport.AspNetCore;
+using jsreport.Local;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using jsreport.Binary;
+using jsreport.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,6 +52,8 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapDefaultControllerRoute();
 
 app.MapControllerRoute(
     name: "default",
