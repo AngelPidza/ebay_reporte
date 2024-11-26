@@ -51,6 +51,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BouncyCastle.Cryptography": {
+              "target": "Package",
+              "version": "[2.5.0-beta.152, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -78,6 +86,30 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.2.1, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "jsreport.AspNetCore": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            },
+            "jsreport.Binary": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "jsreport.Local": {
+              "target": "Package",
+              "version": "[3.8.2, )"
+            },
+            "jsreport.Shared": {
+              "target": "Package",
+              "version": "[3.8.2, )"
             }
           },
           "imports": [

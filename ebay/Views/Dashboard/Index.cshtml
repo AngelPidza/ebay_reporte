@@ -1,0 +1,97 @@
+﻿@model DashboardData
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h5>Productos</h5>
+                    <h2>@Model.TotalProducts</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5>Usuarios</h5>
+                    <h2>@Model.TotalUsers</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Productos por Categoría</h5>
+                    <div class="w-50 mx-auto">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Productos Más Stock</h5>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Precio</th>
+                                <th>Stock</th>
+                                <th>Categoría</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @foreach (var product in Model.TopProducts)
+                            {
+                                <tr>
+                                    <td>@product.Title</td>
+                                    <td>$@product.Price.ToString("N2")</td>
+                                    <td>@product.Stock</td>
+                                    <td>@product.Category</td>
+                                </tr>
+                            }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const categoryData = @Json.Serialize(Model.OrdersByCategory);
+
+        new Chart(document.getElementById('categoryChart'), {
+            type: 'doughnut',
+            data: {
+                labels: categoryData.map(d => d.category),
+                datasets: [{
+                    data: categoryData.map(d => d.count),
+                    backgroundColor: [
+                        '#2081e2',
+                        '#ff9800',
+                        '#f50',
+                        '#4caf50',
+                        '#9c27b0'
+                    ]
+                }]
+            }
+        });
+    </script>
+}

@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Reportes";
+}
+
+<div class="container mt-4">
+    <h2>Reportes del Sistema</h2>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Reporte de Productos</h5>
+                    <p class="card-text">Generar un reporte detallado de todos los productos, incluyendo precios, stock, categorías y estadísticas de ventas.</p>
+                    <a asp-action="DescargarReporteProductos" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Descargar PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Reporte de Ventas por Categoría</h5>
+                    <p class="card-text">Generar un reporte con información agrupada por categorías, mostrando tendencias y productos más populares.</p>
+                    <a href="#" class="btn btn-secondary disabled">
+                        <i class="fas fa-clock"></i> Próximamente
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Reporte de Inventario</h5>
+                    <p class="card-text">Análisis detallado del inventario actual, productos con bajo stock y valor total del inventario.</p>
+                    <a href="#" class="btn btn-secondary disabled">
+                        <i class="fas fa-clock"></i> Próximamente
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Reporte de Wishlist</h5>
+                    <p class="card-text">Análisis de productos más deseados, tendencias de wishlist y productos populares.</p>
+                    <a href="#" class="btn btn-secondary disabled">
+                        <i class="fas fa-clock"></i> Próximamente
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

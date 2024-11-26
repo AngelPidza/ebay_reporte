@@ -173,6 +173,33 @@ namespace ebay.Controllers
                 return NotFound();
             }
         }
+        
+        public async Task<IActionResult> ExportToExcel()
+        {
+            try
+            {
+                var excelData = await _productService.ExportProductsToExcelAsync();
+                string fileName = $"Products_{DateTime.Now:yyyyMMdd}.xlsx";
+                return File(excelData, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
+            }
+            catch (Exception ex)
+            {
+                return View("Error", new ErrorViewModel { RequestId = ex.Message });
+            }
+        }
+        
+        public async Task<IActionResult> Excel()
+        {
+            try
+            {
+                var products = await _productService.GetProductsAsync();
+                return View(products);
+            }
+            catch (Exception ex)
+            {
+                return View("Error", new ErrorViewModel { RequestId = ex.Message });
+            }
+        }
     }
 
     public class OrdersController : Controller
