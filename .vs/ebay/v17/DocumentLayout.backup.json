@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\controllers\\totalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\controllers\\totalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|c:\\users\\asus rog strix\\source\\repos\\ebay\\ebay\\models\\gameworldcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FF7FA7-814B-4C2A-912F-ED8D77652C36}|ebay\\ebay.csproj|solutionrelative:ebay\\models\\gameworldcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 335,
+          "SelectedChildIndex": 38,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ebay\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ebay\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:37:58.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ebay\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ebay\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:30:35.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "ebay\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\OrderItem.cs",
+              "RelativeToolTip": "ebay\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:30:33.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "ebay\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "ebay\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:26:55.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ebay\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ebay\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAKQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:22:07.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ebay\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ebay\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAJAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:10:41.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\appsettings.json",
+              "RelativeDocumentMoniker": "ebay\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\appsettings.json",
+              "RelativeToolTip": "ebay\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T13:08:58.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TotalController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Controllers\\TotalController.cs",
+              "RelativeDocumentMoniker": "ebay\\Controllers\\TotalController.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Controllers\\TotalController.cs",
+              "RelativeToolTip": "ebay\\Controllers\\TotalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:08:44.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "ebay\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "ebay\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAWwEIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T14:29:26.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ebay\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\Order.cs",
+              "RelativeToolTip": "ebay\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:22:00.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ebay\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ebay\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAJkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T16:20:13.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ebay\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "ebay\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:20:14.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ebay\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\User.cs",
+              "RelativeToolTip": "ebay\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:35:29.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ebay\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ebay\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:07:07.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ebay\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ebay\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:39:08.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameWorldContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\GameWorldContext.cs",
+              "RelativeDocumentMoniker": "ebay\\Models\\GameWorldContext.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Models\\GameWorldContext.cs",
+              "RelativeToolTip": "ebay\\Models\\GameWorldContext.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAIMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:08:31.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Program.cs",
+              "RelativeDocumentMoniker": "ebay\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS ROG STRIX\\source\\repos\\ebay\\ebay\\Program.cs",
+              "RelativeToolTip": "ebay\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:08:20.35Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

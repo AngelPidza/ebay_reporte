@@ -1,0 +1,140 @@
+﻿@model Order
+
+<style>
+    .order-details-container {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+
+    .order-header {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .order-info {
+        background: #f8f9fa;
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .order-items {
+        margin-top: 2rem;
+    }
+
+    .order-item {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        border-bottom: 1px solid #eee;
+    }
+
+    .item-image {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .order-total {
+        font-size: 1.5rem;
+        color: var(--primary-color);
+        font-weight: 700;
+    }
+</style>
+
+<div class="container">
+    <div class="order-details-container">
+        <div class="order-header">
+            <h2>Detalles de la Orden #@Model.OrderId</h2>
+            <p class="text-muted mb-0">
+                Fecha: @Model.OrderDate.ToString("dd/MM/yyyy HH:mm")
+            </p>
+        </div>
+
+        <div class="order-info">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Información de Envío</h5>
+                    <p>@Model.ShippingAddress</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <h5>Estado de la Orden</h5>
+                    <span class="badge bg-success">Completa tu pedido</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="order-items">
+            <h5 class="mb-3">Productos</h5>
+            @foreach (var item in Model.OrderItems)
+            {
+                <div class="order-item">
+                    <img src="@item.Product.ImageUrl" alt="@item.Product.Title" class="item-image">
+                    <div class="ms-3 flex-grow-1">
+                        <h6>@item.Product.Title</h6>
+                        <p class="mb-0 text-muted">
+                            Cantidad: @item.Quantity x $@item.UnitPrice.ToString("F2")
+                        </p>
+                    </div>
+                    <div>
+                        <strong>$@((item.Quantity * item.UnitPrice).ToString("F2"))</strong>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="text-end mt-4">
+            <p class="mb-1">Subtotal: $@Model.TotalAmount.ToString("F2")</p>
+            <p class="mb-1">Envío: Gratis</p>
+            <h4 class="order-total">Total: $@Model.TotalAmount.ToString("F2")</h4>
+
+            <div class="mt-4">
+                <a href="@Url.Action("Index", "Orders")" class="btn btn-outline-primary me-2">
+                    <i class="bi bi-arrow-left"></i> Volver a Mis Órdenes
+                </a>
+                @if (Model.OrderDate == DateTime.MinValue)
+                {
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#checkoutModal">
+                        <i class="bi bi-bag-check"></i> Finalizar Compra
+                    </button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.OrderDate == DateTime.MinValue)
+{
+    <!-- Modal de Checkout -->
+    <div class="modal fade" id="checkoutModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Finalizar Compra</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <form asp-action="Checkout" method="post">
+                    <div class="modal-body">
+                        <input type="hidden" name="orderId" value="@Model.OrderId" />
+                        <div class="mb-3">
+                            <label class="form-label">Dirección de Envío</label>
+                            <textarea name="shippingAddress" class="form-control" rows="3" required></textarea>
+                        </div>
+                        <p class="mb-0"><strong>Total a pagar:</strong> $@Model.TotalAmount.ToString("F2")</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-check2"></i> Confirmar Compra
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}

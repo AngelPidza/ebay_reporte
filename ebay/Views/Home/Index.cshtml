@@ -1,0 +1,234 @@
+﻿@{
+    ViewData["Title"] = "Inicio - MegaMarket";
+}
+
+<style>
+    /* Hero Section */
+    .hero-section {
+        background: linear-gradient(135deg, rgba(32, 129, 226, 0.1) 0%, rgba(21, 101, 192, 0.1) 100%);
+        border-radius: 15px;
+        padding: 3rem 1rem;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    /* Categories */
+    .category-card {
+        background: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 100%;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+    .category-icon {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+
+    /* Featured Products */
+    .product-card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 100%;
+        transition: transform 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+    .product-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .featured-tag {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: var(--primary-color);
+        color: white;
+        padding: 0.3rem 0.8rem;
+        border-radius: 15px;
+        font-size: 0.9rem;
+    }
+
+    /* Info Banner */
+    .info-banner {
+        background: linear-gradient(to right, var(--primary-color), #1565c0);
+        color: white;
+        border-radius: 10px;
+        padding: 2rem;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    /* Features Section */
+    .feature-card {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #333;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+</style>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <h1 class="display-4 mb-3">Bienvenido a MegaMarket</h1>
+    <p class="lead">Tu destino para encontrar los mejores productos al mejor precio</p>
+</section>
+
+<!-- Categories Section -->
+<section class="my-5">
+    <h2 class="section-title">Categorías Principales</h2>
+    <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+            <div class="category-card">
+                <i class="bi bi-laptop category-icon"></i>
+                <h5>Electrónicos</h5>
+                <p class="text-muted mb-0">Últimas tecnologías</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="category-card">
+                <i class="bi bi-bag category-icon"></i>
+                <h5>Moda</h5>
+                <p class="text-muted mb-0">Tendencias actuales</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="category-card">
+                <i class="bi bi-house category-icon"></i>
+                <h5>Hogar</h5>
+                <p class="text-muted mb-0">Decora tu espacio</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="category-card">
+                <i class="bi bi-controller category-icon"></i>
+                <h5>Gaming</h5>
+                <p class="text-muted mb-0">Diversión asegurada</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products Section -->
+<section class="my-5">
+    <h2 class="section-title">Productos Destacados</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="product-card">
+                <div class="position-relative">
+                    <img src="https://novoproductos.com.ec/wp-content/uploads/2024/08/168198-800-auto.webp" class="product-image" alt="Producto 1">
+                    <span class="featured-tag">Destacado</span>
+                </div>
+                <div class="card-body p-3">
+                    <h5 class="card-title">Smartwatch Pro</h5>
+                    <p class="card-text text-muted">Monitor de actividad física con pantalla AMOLED</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="product-card">
+                <div class="position-relative">
+                    <img src="https://m.media-amazon.com/images/I/71BoNjRfszL._AC_UF894,1000_QL80_.jpg" class="product-image" alt="Producto 2">
+                    <span class="featured-tag">Destacado</span>
+                </div>
+                <div class="card-body p-3">
+                    <h5 class="card-title">Auriculares Wireless</h5>
+                    <p class="card-text text-muted">Cancelación de ruido activa y 30h de batería</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="product-card">
+                <div class="position-relative">
+                    <img src="https://media.es.wired.com/photos/6498c73f721d1170b8ceb1ca/master/w_1600%2Cc_limit/Lenovo-P11-Pro-2nd-Gen-Gear.jpg" class="product-image" alt="Producto 3">
+                    <span class="featured-tag">Destacado</span>
+                </div>
+                <div class="card-body p-3">
+                    <h5 class="card-title">Tablet Ultra</h5>
+                    <p class="card-text text-muted">Perfecta para trabajo y entretenimiento</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Info Banner -->
+<div class="info-banner">
+    <h3 class="mb-3">Descubre Nuevos Productos Cada Día</h3>
+    <p class="mb-0">Las mejores marcas y la mejor calidad en un solo lugar</p>
+</div>
+
+<!-- Features Section -->
+<section class="my-5">
+    <div class="row g-4">
+        <div class="col-md-3">
+            <div class="feature-card">
+                <i class="bi bi-truck feature-icon"></i>
+                <h5>Envío Rápido</h5>
+                <p class="text-muted mb-0">A todo el país</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature-card">
+                <i class="bi bi-shield-check feature-icon"></i>
+                <h5>Compra Segura</h5>
+                <p class="text-muted mb-0">100% Garantizado</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature-card">
+                <i class="bi bi-arrow-counterclockwise feature-icon"></i>
+                <h5>Fácil Devolución</h5>
+                <p class="text-muted mb-0">30 días de garantía</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature-card">
+                <i class="bi bi-headset feature-icon"></i>
+                <h5>Soporte 24/7</h5>
+                <p class="text-muted mb-0">Siempre disponibles</p>
+            </div>
+        </div>
+    </div>
+</section>
